@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato\\ziggato.csproj": {}
+    "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato.Services\\ziggato.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato\\ziggato.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato.Services\\ziggato.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato\\ziggato.csproj",
-        "projectName": "ziggato",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato\\ziggato.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato.Services\\ziggato.Services.csproj",
+        "projectName": "ziggato.Services",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato.Services\\ziggato.Services.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ziggato\\ziggato\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\ziggato\\ziggato.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -57,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

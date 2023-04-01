@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ziggato", "ziggato\ziggato.csproj", "{776E84EB-21F2-44A0-A23D-ED6130ACB01C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ziggato", "ziggato\ziggato.csproj", "{776E84EB-21F2-44A0-A23D-ED6130ACB01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ziggato.API", "ziggato.API\ziggato.API.csproj", "{ACB95A1D-5550-4FAD-8F12-397FBC033329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ziggato.Models", "ziggato.Models\ziggato.Models.csproj", "{D546BBC9-3836-4027-9334-22ECF963C1F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ziggato.Services", "ziggato.Services\ziggato.Services.csproj", "{D3D582A0-0891-400F-A02F-C691550A6118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ziggato.DBConnect", "ziggato.DBConnect\ziggato.DBConnect.csproj", "{172BC8B2-DC4B-4E15-9942-E8060B9F3C06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{776E84EB-21F2-44A0-A23D-ED6130ACB01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{776E84EB-21F2-44A0-A23D-ED6130ACB01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{776E84EB-21F2-44A0-A23D-ED6130ACB01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB95A1D-5550-4FAD-8F12-397FBC033329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB95A1D-5550-4FAD-8F12-397FBC033329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB95A1D-5550-4FAD-8F12-397FBC033329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB95A1D-5550-4FAD-8F12-397FBC033329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D546BBC9-3836-4027-9334-22ECF963C1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D546BBC9-3836-4027-9334-22ECF963C1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D546BBC9-3836-4027-9334-22ECF963C1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D546BBC9-3836-4027-9334-22ECF963C1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D582A0-0891-400F-A02F-C691550A6118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D582A0-0891-400F-A02F-C691550A6118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D582A0-0891-400F-A02F-C691550A6118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D582A0-0891-400F-A02F-C691550A6118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172BC8B2-DC4B-4E15-9942-E8060B9F3C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172BC8B2-DC4B-4E15-9942-E8060B9F3C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172BC8B2-DC4B-4E15-9942-E8060B9F3C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172BC8B2-DC4B-4E15-9942-E8060B9F3C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
