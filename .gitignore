@@ -2,14 +2,4 @@
 ziggato/bin/
 ziggato/obj/
 
-ziggato.API/bin/
-ziggato.API/obj/
 
-ziggato.Models/bin/
-ziggato.Models/obj/
-
-ziggato.Services/bin/
-ziggato.Services/obj/
-
-ziggato.DBConnect/bin/
-ziggato.DBConnect/obj/
