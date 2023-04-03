@@ -10,7 +10,7 @@ namespace ziggato.DBConnect
         }
 
 
-        public DbSet<Restraunt> Restraunts { get; set; }
+        public DbSet<Restaurant> Restaurant { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
 
        
