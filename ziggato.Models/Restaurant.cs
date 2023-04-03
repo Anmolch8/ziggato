@@ -1,10 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ziggato.Models
 {
     public class Restaurant
     {
-
+        [Key]
         public int RestaurantId { get; set; }
         public string RestaurantName { get; set; }
         public string RestaurantAddress { get; set; }
